@@ -1,0 +1,2541 @@
+{
+  "1-North": {
+    "floor": "1",
+    "total_rows": 14,
+    "total_columns": 20,
+    "row_labels": [
+      "HDBB01",
+      "HDBB02",
+      "HDBB03",
+      "HDBB04",
+      "BB17",
+      "BB18",
+      "BB19",
+      "BB20",
+      "BB21",
+      "BB22",
+      "BB23",
+      "BB24",
+      "BB25",
+      "BB26",
+      "BB27"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB01",
+        "column_id": 1
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB01",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB01",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB01",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB01",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB02",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB02",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB02",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB02",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDBB04",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB17",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB17",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB17",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB17",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB18",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB18",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB19",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB19",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB20",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB20",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB22",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB22",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB23",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB23",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB22",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB22",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB24",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB24",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB25",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB26",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB26",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB27",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB27",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB27",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB27",
+        "column_id": 20
+      }
+    ]
+  },
+  "1-South": {
+    "floor": "1",
+    "total_rows": 17,
+    "total_columns": 19,
+    "row_labels": [
+      "BB16",
+      "BB15",
+      "BB14",
+      "BB13",
+      "BB12",
+      "BB11",
+      "BB10",
+      "BB09",
+      "BB08",
+      "BB07",
+      "BB06",
+      "BB05",
+      "BB04",
+      "BB03",
+      "BB02",
+      "BB01",
+      "BB00"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB16",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 3
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 4
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB15",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB15",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB15",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB14",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB14",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB13",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB13",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB13",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB12",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB11",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB11",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB11",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB11",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB10",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB10",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB10",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB09",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB09",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB09",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB08",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB07",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB07",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB06",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB06",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB06",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB05",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB05",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB05",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB04",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB04",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB03",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB03",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB02",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB01",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB01",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB01",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "BB01",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "BB00",
+        "column_id": 19
+      }
+    ]
+  },
+  "2-North": {
+    "floor": "2",
+    "total_rows": 14,
+    "total_columns": 20,
+    "row_labels": [
+      "HDCB01",
+      "HDCB02",
+      "HDCB03",
+      "HDCB04",
+      "CB18",
+      "CB19",
+      "CB20",
+      "CB21",
+      "CB22",
+      "CB23",
+      "CB24",
+      "CB25",
+      "CB26",
+      "CB27",
+      "CB28",
+      "CB29",
+      "CB30",
+      "CB31",
+      "CB32"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB01",
+        "column_id": 1
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB01",
+        "column_id": 2
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDCB01",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDCB01",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB01",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB02",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDCB02",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDCB02",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDCB04",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB18",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB19",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB19",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB19",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB20",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB20",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB21",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB21",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB22",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB23",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB23",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB23",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB23",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB23",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB24",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB24",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB24",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB24",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB25",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB26",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB26",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB27",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB27",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB28",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB28",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB28",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB29",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB30",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB31",
+        "column_id": 20
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB32",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB32",
+        "column_id": 20
+      }
+    ]
+  },
+  "2-South": {
+    "floor": "2",
+    "total_rows": 17,
+    "total_columns": 19,
+    "row_labels": [
+      "CB17",
+      "CB16",
+      "CB15",
+      "CB14",
+      "CB13",
+      "CB12",
+      "CB11",
+      "CB10",
+      "CB09",
+      "CB08",
+      "CB07",
+      "CB06",
+      "CB05",
+      "CB04",
+      "CB03",
+      "CB02",
+      "CB01"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB17",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB15",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB14",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB14",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB13",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB13",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "CB12",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "CB12",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB12",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB11",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB11",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB10",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB10",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB09",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB08",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB08",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB08",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB08",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB07",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB07",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB07",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB07",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB06",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB05",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB04",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB04",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB03",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB03",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB03",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "CB02",
+        "column_id": 19
+      }
+    ]
+  },
+  "3-North": {
+    "floor": "3",
+    "total_rows": 16,
+    "total_columns": 19,
+    "row_labels": [
+      "HDDB01",
+      "HDDB02",
+      "HDDB03",
+      "HDDB04",
+      "DB14",
+      "DB15",
+      "DB16",
+      "DB17",
+      "DB18",
+      "DB19",
+      "DB20",
+      "DB21",
+      "DB22",
+      "DB23",
+      "DB24",
+      "DB25"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB01",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB01",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB01",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB01",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDDB01",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB02",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDDB02",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB14",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB14",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB14",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB15",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB15",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB15",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB16",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB17",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB18",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB19",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB19",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB20",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB20",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB21",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB22",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB24",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB24",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB24",
+        "column_id": 19
+      }
+    ]
+  },
+  "3-South": {
+    "floor": "3",
+    "total_rows": 13,
+    "total_columns": 19,
+    "row_labels": [
+      "DB13",
+      "DB12",
+      "DB11",
+      "DB10",
+      "DB09",
+      "DB08",
+      "DB07",
+      "DB06",
+      "DB05",
+      "DB04",
+      "DB03",
+      "DB02",
+      "DB01"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB07",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB07",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB03",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB03",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "DB03",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 3
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 4
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB13",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 4
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB12",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB11",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB09",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB08",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB08",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB07",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB06",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB06",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB05",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB05",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB04",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB03",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB02",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "DB01",
+        "column_id": 19
+      }
+    ]
+  },
+  "4-North": {
+    "floor": "4",
+    "total_rows": 18,
+    "total_columns": 19,
+    "row_labels": [
+      "HDEB01",
+      "HDEB02",
+      "HDEB03",
+      "HDEB04",
+      "EB18",
+      "EB19",
+      "EB20",
+      "EB21",
+      "EB22",
+      "EB23",
+      "EB24",
+      "EB25",
+      "EB26",
+      "EB27",
+      "EB28",
+      "EB29",
+      "EB30",
+      "EB31"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDEB01",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDEB01",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDEB01",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDEB01",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDEB01",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDEB02",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDEB02",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDEB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDEB02",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB18",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB19",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB19",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB19",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB20",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB21",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB23",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB24",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB23",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB23",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB24",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB24",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB26",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB27",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB28",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB28",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB29",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB29",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB29",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB30",
+        "column_id": 19
+      }
+    ]
+  },
+  "4-South": {
+    "floor": "4",
+    "total_rows": 17,
+    "total_columns": 19,
+    "row_labels": [
+      "EB17",
+      "EB16",
+      "EB15",
+      "EB14",
+      "EB13",
+      "EB12",
+      "EB11",
+      "EB10",
+      "EB09",
+      "EB08",
+      "EB07",
+      "EB06",
+      "EB05",
+      "EB04",
+      "EB03",
+      "EB02",
+      "EB01"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB17",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB16",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB15",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB14",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB13",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB13",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB12",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB12",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB12",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB12",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB11",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB11",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB10",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB10",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB09",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB08",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB08",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB08",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB08",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB07",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB07",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB07",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB07",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB06",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB05",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB05",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB04",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB04",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB03",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB03",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB02",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "EB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB03",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB03",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB02",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "EB02",
+        "column_id": 6
+      }
+    ]
+  },
+  "5-North": {
+    "floor": "4",
+    "total_rows": 17,
+    "total_columns": 19,
+    "row_labels": [
+      "HDFB01",
+      "HDFB02",
+      "HDFB03",
+      "HDFB04",
+      "FB18",
+      "FB19",
+      "FB20",
+      "FB21",
+      "FB22",
+      "FB23",
+      "FB24",
+      "FB25",
+      "FB26",
+      "FB27",
+      "FB28",
+      "FB29",
+      "FB30"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDFB01",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDFB01",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB01",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB01",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB01",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB01",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDFB02",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "HDFB02",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB02",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB02",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB02",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "HDFB03",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB18",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB18",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB19",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB19",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB19",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB19",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB20",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB20",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB20",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB21",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB21",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB22",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB22",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB22",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB23",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB24",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB24",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB24",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB24",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB24",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB25",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB26",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB26",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB27",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB27",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB28",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB29",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB29",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB29",
+        "column_id": 19
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB30",
+        "column_id": 19
+      }
+    ]
+  },
+  "5-South": {
+    "floor": "4",
+    "total_rows": 17,
+    "total_columns": 18,
+    "row_labels": [
+      "FB17",
+      "FB16",
+      "FB15",
+      "FB14",
+      "FB13",
+      "FB12",
+      "FB11",
+      "FB10",
+      "FB09",
+      "FB08",
+      "FB07",
+      "FB06",
+      "FB05",
+      "FB04",
+      "FB03",
+      "FB02",
+      "FB01"
+    ],
+    "static_racks": [
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 3
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 4
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 14
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 15
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 16
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB17",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 4
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 5
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 6
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 10
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 11
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 12
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB16",
+        "column_id": 13
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB16",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB15",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB13",
+        "column_id": 17
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB13",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB12",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB12",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB12",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB11",
+        "column_id": 18
+      },{
+        "rack_name": "Pillar",
+        "row_id": "FB11",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB11",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB11",
+        "column_id": 6
+      },{
+        "rack_name": "Pillar",
+        "row_id": "FB07",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB07",
+        "column_id": 8
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB07",
+        "column_id": 9
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB03",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Unused",
+        "row_id": "FB02",
+        "column_id": 18
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB02",
+        "column_id": 7
+      },
+      {
+        "rack_name": "Pillar",
+        "row_id": "FB02",
+        "column_id": 8
+      }
+    ]
+  }
+}

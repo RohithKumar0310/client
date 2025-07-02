@@ -1,0 +1,530 @@
+{
+    "1-North": {
+        "side": [
+            {
+                "name": "Transformer 1F1",
+                "R": 72,
+                "Y": 88,
+                "B": 91
+            },
+            {
+                "name": "Transformer 1F2",
+                "R": 44,
+                "Y": 56,
+                "B": 23
+            },
+            {
+                "name": "Transformer 1F3",
+                "R": 39,
+                "Y": 16,
+                "B": 19
+            },
+            {
+                "name": "Transformer 1F4",
+                "R": 98,
+                "Y": 74,
+                "B": 72
+            },
+            {
+                "name": "Transformer 1F12",
+                "R": 106,
+                "Y": 63,
+                "B": 44
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer T1",
+                "R": 6,
+                "Y": 1,
+                "B": 9
+            },
+            {
+                "name": "Transformer T2",
+                "R": 37,
+                "Y": 0,
+                "B": 12
+            }
+        ]
+    },
+    "1-South": {
+        "side": [
+            {
+                "name": "Transformer 1F10",
+                "R": 47,
+                "Y": 32,
+                "B": 48
+            },
+            {
+                "name": "Transformer 1F9",
+                "R": 124,
+                "Y": 84,
+                "B": 95
+            },
+            {
+                "name": "Transformer 1F8",
+                "R": 118,
+                "Y": 71,
+                "B": 99
+            },
+            {
+                "name": "Transformer 1F7",
+                "R": 54,
+                "Y": 67,
+                "B": 61
+            },
+            {
+                "name": "Transformer 1F6",
+                "R": 90,
+                "Y": 100,
+                "B": 116
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer T1",
+                "R": 7,
+                "Y": 5,
+                "B": 2
+            },
+            {
+                "name": "Transformer T2",
+                "R": 24,
+                "Y": 30,
+                "B": 37
+            }
+        ]
+    },
+    "2-North": {
+        "side": [
+            {
+                "name": "Transformer 2F1(P3)",
+                "R": 25,
+                "Y": 128,
+                "B": 75
+            },
+            {
+                "name": "Transformer 2F2(P3)",
+                "R": 89,
+                "Y": 95,
+                "B": 90
+            },
+            {
+                "name": "Transformer 2F3(P3)",
+                "R": 115,
+                "Y": 137,
+                "B": 144
+            },
+            {
+                "name": "Transformer 2F4(P3)",
+                "R": 119,
+                "Y": 79,
+                "B": 118
+            },
+            {
+                "name": "Transformer 2F5(P3)",
+                "R": 59,
+                "Y": 77,
+                "B": 68
+            },
+            {
+                "name": "Transformer 2F6(P3)",
+                "R": 11,
+                "Y": 5,
+                "B": 10
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer T1",
+                "R": 21,
+                "Y": 4,
+                "B": 0
+            },
+            {
+                "name": "Transformer T2",
+                "R": 12,
+                "Y": 45,
+                "B": 21
+            }
+        ]
+    },
+    "2-South": {
+        "side": [
+            {
+                "name": "Transformer 2F08(P3)",
+                "R": 119,
+                "Y": 101,
+                "B": 139
+            },
+            {
+                "name": "Transformer 2F09(P3)",
+                "R": 19,
+                "Y": 34,
+                "B": 23
+            },
+            {
+                "name": "Transformer 2F10(P4)",
+                "R": 38,
+                "Y": 39,
+                "B": 37
+            },
+            {
+                "name": "Transformer 2F11(P3)",
+                "R": 34,
+                "Y": 48,
+                "B": 65
+            },
+            {
+                "name": "Transformer 2F12(P3)",
+                "R": 35,
+                "Y": 27,
+                "B": 52
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer -2F7(P3)",
+                "R": 45,
+                "Y": 33,
+                "B": 28
+            },
+            {
+                "name": "Transformer T1",
+                "R": 32,
+                "Y": 30,
+                "B": 29
+            },
+            {
+                "name": "Transformer T2",
+                "R": 11,
+                "Y": 9,
+                "B": 18
+            }
+        ]
+    },
+    "3-North": {
+        "side": [
+            {
+                "name": "Transformer 3F1(P2)",
+                "R": 79,
+                "Y": 56,
+                "B": 81
+            },
+            {
+                "name": "Transformer 3F2(P3)",
+                "R": 92,
+                "Y": 81,
+                "B": 61
+            },
+            {
+                "name": "Transformer 3F3(P3)",
+                "R": 96,
+                "Y": 110,
+                "B": 78
+            },
+            {
+                "name": "Transformer 3F5(P3)",
+                "R": 90,
+                "Y": 76,
+                "B": 80
+            },
+            {
+                "name": "Transformer 3F4",
+                "R": 13,
+                "Y": 15,
+                "B": 16
+            },
+            {
+                "name": "Transformer 3F10(P3)",
+                "R": 127,
+                "Y": 128,
+                "B": 93
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer T1",
+                "R": 32,
+                "Y": 46,
+                "B": 40
+            },
+            {
+                "name": "Transformer T2",
+                "R": 45,
+                "Y": 36,
+                "B": 19
+            }
+        ]
+    },
+    "3-South": {
+        "side": [
+            {
+                "name": "Transformer 3F7(P2)",
+                "R": 61,
+                "Y": 80,
+                "B": 69
+            },
+            {
+                "name": "Transformer 3F8(P2)",
+                "R": 105,
+                "Y": 93,
+                "B": 108
+            },
+            {
+                "name": "Transformer 3F9(P2)",
+                "R": 83,
+                "Y": 77,
+                "B": 97
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer 3F6(P3)",
+                "R": 12,
+                "Y": 43,
+                "B": 31
+            },
+            {
+                "name": "Transformer T1",
+                "R": 4,
+                "Y": 26,
+                "B": 20
+            },
+            {
+                "name": "Transformer T2",
+                "R": 37,
+                "Y": 24,
+                "B": 43
+            }
+        ]
+    },
+    "4-North": {
+        "side": [
+            {
+                "name": "Transformer 4F1(P1)",
+                "R": 9,
+                "Y": 1,
+                "B": 0
+            },
+            {
+                "name": "Transformer 4F2(18,19,20) (P1)",
+                "R": 106,
+                "Y": 111,
+                "B": 55
+            },
+            {
+                "name": "Transformer 4F3(21,22,23) (P1)",
+                "R": 31,
+                "Y": 11,
+                "B": 18
+            },
+            {
+                "name": "Transformer 4F4(24,25,26) (P1)",
+                "R": 66,
+                "Y": 109,
+                "B": 95
+            },
+            {
+                "name": "Transformer 4F5(27,28) (P1)",
+                "R": 77,
+                "Y": 61,
+                "B": 95
+            },
+            {
+                "name": "Transformer 4F6(29,30,31) (P1)",
+                "R": 40,
+                "Y": 54,
+                "B": 82
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer 4F7(P1)",
+                "R": 27,
+                "Y": 24,
+                "B": 17
+            },
+            {
+                "name": "Transformer 4F8(P1)",
+                "R": 11,
+                "Y": 14,
+                "B": 5
+            },
+            {
+                "name": "Transformer T1",
+                "R": 4,
+                "Y": 26,
+                "B": 20
+            },
+            {
+                "name": "Transformer T2",
+                "R": 37,
+                "Y": 24,
+                "B": 43
+            }
+        ]
+    },
+    "4-South": {
+        "side": [
+            {
+                "name": "Transformer 4F08(12,13,14) (P1)",
+                "R": 136,
+                "Y": 152,
+                "B": 140
+            },
+            {
+                "name": "Transformer 4F9(9,10,11) (P1)",
+                "R": 127,
+                "Y": 132,
+                "B": 135
+            },
+            {
+                "name": "Transformer 4F10 (6,7,8) (P1)",
+                "R": 87,
+                "Y": 86,
+                "B": 103
+            },
+            {
+                "name": "Transformer 4F11 (3,4,5) (P1)",
+                "R": 104,
+                "Y": 98,
+                "B": 112
+            },
+            {
+                "name": "Transformer 4F12 (1,2) (P3)",
+                "R": 169,
+                "Y": 141,
+                "B": 76
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer 4F7(15,16,17) (P1)",
+                "R": 63,
+                "Y": 44,
+                "B": 51
+            },
+            {
+                "name": "Transformer T1",
+                "R": 6,
+                "Y": 2,
+                "B": 0
+            },
+            {
+                "name": "Transformer T2",
+                "R": 12,
+                "Y": 12,
+                "B": 13
+            }
+        ]
+    },
+    "5-North": {
+        "side": [
+            {
+                "name": "Transformer 5F1(P3)",
+                "R": 55,
+                "Y": 81,
+                "B": 57
+            },
+            {
+                "name": "Transformer 5F2(P3)",
+                "R": 41,
+                "Y": 22,
+                "B": 13
+            },
+            {
+                "name": "Transformer 5F3(P2)",
+                "R": 15,
+                "Y": 15,
+                "B": 13
+            },
+            {
+                "name": "Transformer 5F4(P3)",
+                "R": 79,
+                "Y": 47,
+                "B": 20
+            },
+            {
+                "name": "Transformer 5F5(P3)",
+                "R": 19,
+                "Y": 19,
+                "B": 24
+            },
+            {
+                "name": "Transformer 5F6(P2)",
+                "R": 39,
+                "Y": 37,
+                "B": 47
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer T1",
+                "R": 21,
+                "Y": 4,
+                "B": 0
+            },
+            {
+                "name": "Transformer T2",
+                "R": 12,
+                "Y": 45,
+                "B": 21
+            }
+        ]
+    },
+    "5-South": {
+        "side": [
+            {
+                "name": "Transformer 5F08(P2)",
+                "R": 12,
+                "Y": 24,
+                "B": 12
+            },
+            {
+                "name": "Transformer 5F09(P3)",
+                "R": 1,
+                "Y": 1,
+                "B": 1
+            },
+            {
+                "name": "Transformer 5F10(P3)",
+                "R": 66,
+                "Y": 60,
+                "B": 59
+            },
+            {
+                "name": "Transformer 5F11(P2)",
+                "R": 114,
+                "Y": 117,
+                "B": 103
+            },
+            {
+                "name": "Transformer 5F12(P2)",
+                "R": 41,
+                "Y": 50,
+                "B": 56
+            }
+        ],
+        "top": [
+            {
+                "name": "Transformer 5F7(P2)",
+                "R": 11,
+                "Y": 40,
+                "B": 20
+            },
+            {
+                "name": "Transformer T1",
+                "R": 32,
+                "Y": 30,
+                "B": 29
+            },
+            {
+                "name": "Transformer T2",
+                "R": 11,
+                "Y": 9,
+                "B": 18
+            }
+        ]
+    }
+}
