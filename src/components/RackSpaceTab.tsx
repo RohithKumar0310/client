@@ -1,5 +1,7 @@
 import React from 'react';
-import { DataTable, Text } from 'grommet';
+import { DataTable, Text, Box, Button } from 'grommet';
+import * as XLSX from 'xlsx';
+import { Download } from 'grommet-icons';
 
 interface WingInfo {
   name: 'North' | 'South';
@@ -24,7 +26,7 @@ function getFloorsData(): FloorInfo[] {
       const layout = (floorLayout as any)[key];
       if (layout) {
         // Count total racks (exclude 'Unused'/'Pillar')
-        const totalRacks = false
+        const totalRacks = true
           ? layout.static_racks.filter((r: any) => r.rack_name !== 'Unused' && r.rack_name !== 'Pillar').length
           : 304;
         // Synthesize empty units (unused racks)
@@ -47,6 +49,7 @@ interface FloorRow {
   floor: number;
   totalRacks: number;
   emptyUnits: number;
+  [key: string]: string | number; // Index signature for XLSX export
 }
 
 const rackRows: FloorRow[] = floorsData.map((floor) => {
@@ -55,17 +58,59 @@ const rackRows: FloorRow[] = floorsData.map((floor) => {
   return { floor: floor.floor, totalRacks, emptyUnits };
 });
 
-const RackSpaceTab: React.FC = () => (
-  <DataTable
-    columns={[
-      { property: 'floor', header: <Text weight={600}>Floor</Text> },
-      { property: 'totalRacks', header: <Text weight={600}>Total Racks</Text> },
-      { property: 'emptyUnits', header: <Text weight={600}>Empty Units</Text> },
-    ]}
-    data={rackRows}
-    primaryKey={false}
-    resizeable
-  />
-);
+const RackSpaceTab: React.FC = () => {
+  const totalRacksSum = rackRows.reduce((sum, row) => sum + row.totalRacks, 0);
+  const emptyUnitsSum = rackRows.reduce((sum, row) => sum + row.emptyUnits, 0);
+
+  const exportToExcel = () => {
+    // Create a worksheet from the rackRows data
+    const ws = XLSX.utils.json_to_sheet(rackRows);
+
+    // Create a workbook with the worksheet
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Rack_Space');
+
+    // Generate Excel file and trigger download
+    XLSX.writeFile(wb, 'rack_space_utilization.xlsx');
+  };
+
+  return (
+    <Box gap="small">
+      <Box direction="row" justify="between" align='center'>
+        <Text weight={600}>Rack Space Utilization</Text>
+        <Button
+          primary
+          icon={<Download />}
+          label="Export"
+          onClick={exportToExcel}
+          gap="small"
+          size="small"
+        />
+      </Box>
+      <DataTable
+        columns={[
+          {
+            property: 'floor',
+            header: <Text weight={600}>Floor</Text>,
+            footer: <Text weight={600}>Total</Text>,
+          },
+          {
+            property: 'totalRacks',
+            header: <Text weight={600}>Total Racks</Text>,
+            footer: <Text weight={600}>{totalRacksSum}</Text>,
+          },
+          {
+            property: 'emptyUnits',
+            header: <Text weight={600}>Empty Units</Text>,
+            footer: <Text weight={600}>{emptyUnitsSum}</Text>,
+          },
+        ]}
+        data={rackRows}
+        primaryKey={false}
+        resizeable
+      />
+    </Box>
+  );
+};
 
 export default RackSpaceTab;

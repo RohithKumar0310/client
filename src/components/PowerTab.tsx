@@ -1,5 +1,7 @@
 import React from 'react';
-import { DataTable, Text } from 'grommet';
+import { DataTable, Text, Box, Button } from 'grommet';
+import * as XLSX from 'xlsx';
+import { Download } from 'grommet-icons';
 
 interface OwnerInfo {
   rack: string;
@@ -36,7 +38,7 @@ const powerFloorsData: FloorPowerInfo[] = [
       },
       {
         name: 'South',
-        totalPowerKw: 1180,
+        totalPowerKw: 1240,
         owners: [
           { rack: 'R31-R35', owner: 'Prasad, Rohit', powerKw: 310 },
           { rack: 'R36-R40', owner: 'Kulkarni, Ravi S', powerKw: 270 },
@@ -90,7 +92,7 @@ const powerFloorsData: FloorPowerInfo[] = [
       },
       {
         name: 'South',
-        totalPowerKw: 1350,
+        totalPowerKw: 1410,
         owners: [
           { rack: 'R226-R230', owner: 'Database Team', powerKw: 350 },
           { rack: 'R231-R235', owner: 'Network Team', powerKw: 310 },
@@ -106,7 +108,7 @@ const powerFloorsData: FloorPowerInfo[] = [
     wings: [
       {
         name: 'North',
-        totalPowerKw: 1280,
+        totalPowerKw: 1320,
         owners: [
           { rack: 'R301-R305', owner: 'AI/ML Team', powerKw: 340 },
           { rack: 'R306-R310', owner: 'Big Data', powerKw: 290 },
@@ -117,7 +119,7 @@ const powerFloorsData: FloorPowerInfo[] = [
       },
       {
         name: 'South',
-        totalPowerKw: 1220,
+        totalPowerKw: 1240,
         owners: [
           { rack: 'R326-R330', owner: 'VR/AR Team', powerKw: 320 },
           { rack: 'R331-R335', owner: 'Gaming', powerKw: 280 },
@@ -133,7 +135,7 @@ const powerFloorsData: FloorPowerInfo[] = [
     wings: [
       {
         name: 'North',
-        totalPowerKw: 1380,
+        totalPowerKw: 1430,
         owners: [
           { rack: 'R401-R405', owner: 'Research Team A', powerKw: 350 },
           { rack: 'R406-R410', owner: 'Research Team B', powerKw: 320 },
@@ -144,7 +146,7 @@ const powerFloorsData: FloorPowerInfo[] = [
       },
       {
         name: 'South',
-        totalPowerKw: 1300,
+        totalPowerKw: 1360,
         owners: [
           { rack: 'R426-R430', owner: 'Lab 1', powerKw: 330 },
           { rack: 'R431-R435', owner: 'Lab 2', powerKw: 300 },
@@ -161,6 +163,7 @@ interface FloorRow {
   floor: number;
   totalPowerKw: number;
   owners: string;
+  [key: string]: string | number; // Index signature for XLSX export
 }
 
 const powerRows: FloorRow[] = powerFloorsData.map((floor) => {
@@ -174,17 +177,59 @@ const powerRows: FloorRow[] = powerFloorsData.map((floor) => {
   return { floor: floor.floor, totalPowerKw, owners };
 });
 
-const PowerTab: React.FC = () => (
-  <DataTable
-    columns={[
-      { property: 'floor', header: <Text weight={600}>Floor</Text> },
-      { property: 'totalPowerKw', header: <Text weight={600}>Total kW</Text> },
-      { property: 'owners', header: <Text weight={600}>Top Owners</Text> },
-    ]}
-    data={powerRows}
-    primaryKey={false}
-    resizeable
-  />
-);
+const PowerTab: React.FC = () => {
+  const totalPowerKwSum = powerRows.reduce((sum, row) => sum + row.totalPowerKw, 0);
+
+  const exportToExcel = () => {
+    // Create a worksheet from the powerRows data
+    const ws = XLSX.utils.json_to_sheet(powerRows);
+
+    // Create a workbook with the worksheet
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Power_Consumption');
+
+    // Generate Excel file and trigger download
+    XLSX.writeFile(wb, 'power_consumption.xlsx');
+  };
+
+  return (
+    <Box gap={'small'}>
+      <Box direction="row" justify="between" align='center'>
+        <Text weight={600}>Power Consumption</Text>
+        <Button
+          primary
+          icon={<Download />}
+          label="Export"
+          onClick={exportToExcel}
+          gap="small"
+          size="small"
+        />
+      </Box>
+      
+      <DataTable
+        columns={[
+          {
+            property: 'floor',
+            header: <Text weight={600}>Floor</Text>,
+            footer: <Text weight={600}>Total</Text>,
+          },
+          {
+            property: 'totalPowerKw',
+            header: <Text weight={600}>Total kW</Text>,
+            footer: <Text weight={600}>{totalPowerKwSum}</Text>,
+          },
+          {
+            property: 'owners',
+            header: <Text weight={600}>Top Owners</Text>,
+            footer: '',
+          },
+        ]}
+        data={powerRows}
+        primaryKey={false}
+        resizeable
+      />
+    </Box>
+  );
+};
 
 export default PowerTab;

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Box, Select, DataTable, Text, Heading } from 'grommet';
+import { Box, Select, DataTable, Text, Heading, Button } from 'grommet';
+import * as XLSX from 'xlsx';
+import { Download } from 'grommet-icons';
 
 type NetworkCompartment = keyof typeof networkData;
 
@@ -20,19 +22,11 @@ const networkData: Record<string, SubnetInfo[]> = {
     { subnet: '10.20.2.0/24', ipCount: 165 },
     { subnet: '10.20.3.0/24', ipCount: 230 },
   ],
-  'LR-3': [
-    { subnet: '10.30.1.0/24', ipCount: 145 },
-    { subnet: '10.30.2.0/24', ipCount: 125 },
-  ],
   'LR-4': [
     { subnet: '10.40.1.0/24', ipCount: 180 },
     { subnet: '10.40.2.0/24', ipCount: 150 },
     { subnet: '10.40.3.0/24', ipCount: 195 },
-  ],
-  'LR-5': [
-    { subnet: '10.50.1.0/24', ipCount: 120 },
-    { subnet: '10.50.2.0/24', ipCount: 90 },
-  ],
+  ]
 };
 
 const compartments = Object.keys(networkData) as Array<keyof typeof networkData>;
@@ -42,12 +36,38 @@ const NetworkTab: React.FC = () => {
 
   const subnets = networkData[selectedCompartment];
 
+  const exportToExcel = () => {
+    // Create a worksheet from the subnets data
+    const ws = XLSX.utils.json_to_sheet(subnets);
+
+    // Create a workbook with the worksheet
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, `Network_${selectedCompartment}`);
+
+    // Generate Excel file and trigger download
+    XLSX.writeFile(wb, `network_${selectedCompartment.toLowerCase()}_subnets.xlsx`);
+  };
+
   return (
-    <Box gap="medium">
+    <Box gap="small">
       {/* Compartment selector */}
-      <Box direction='row' gap='small' justify='start'>
-      <Heading level={2}>Compartment : </Heading>
-      <Select options={compartments} value={selectedCompartment} onChange={({ option }) => setSelectedCompartment(option)} />
+      <Box direction='row' justify='between' align='center'>
+        <Box direction='row' gap='small' align='center'>
+          <Heading level={2}>Compartment : </Heading>
+          <Select 
+            options={compartments} 
+            value={selectedCompartment} 
+            onChange={({ option }) => setSelectedCompartment(option)} 
+          />
+        </Box>
+        <Button
+          primary
+          icon={<Download />}
+          label="Export"
+          onClick={exportToExcel}
+          gap="small"
+          size="small"
+        />
       </Box>
       
         

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Heading, Tabs, Tab, Text, Button } from 'grommet';
+import { Box, Heading, Tabs, Tab, Text, Button, Card, CardHeader, CardBody } from 'grommet';
 import { FormPreviousLink } from 'grommet-icons';
 import { useNavigate } from 'react-router-dom';
 import AssetTab from '@/components/AssetTab';
@@ -12,11 +12,53 @@ import ESGTab from '@/components/ESGTab';
 interface LabDetailProps {
   labName: string;
 }
+interface AssetStats {
+  total: number;
+  active: number;
+  inactive: number;
+}
+import { sampleData } from '../Data/sample';
 
 const TAB_KEYS = ['Asset', 'Space', 'Power', 'Network', 'Security', 'ESG'] as const;
+function calculateAssetStats(): AssetStats {
+  let total = 0;
+  let active = 0;
+
+  // Sum up all racks from each lab
+  Object.values(sampleData.Compute).forEach((lab) => {
+    total += lab['Total Lab Assets (racks)'] || 0;
+    active += lab['Active Assets (racks)'] || 0;
+  });
+
+  return {
+    total,
+    active,
+    inactive: total - active,
+  };
+}
 
 type TabKey = (typeof TAB_KEYS)[number];
-
+const StatCard: React.FC<{ label: string; value: number; color?: string }> = ({ label, value, color }) => (
+  <Card
+    background="light-1"
+    pad={'medium'}
+    elevation="small"
+    round="small"
+    width={'medium'}
+    gap={'small'}
+  >
+    <CardHeader justify='center' pad={'none'}>
+      <Heading  weight={600} color={'dark-1'} >
+        {label}
+      </Heading>
+    </CardHeader>
+    <CardBody pad={'none'}>
+      <Text size="xxlarge" weight={700} color={color || 'dark-2'} alignSelf='center'>
+        {value}
+      </Text>
+    </CardBody>
+  </Card>
+);
 const LabDetail: React.FC<LabDetailProps> = ({ labName }) => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<TabKey>('Asset');
@@ -39,13 +81,16 @@ const LabDetail: React.FC<LabDetailProps> = ({ labName }) => {
         return null;
     }
   };
+  const assetStats = calculateAssetStats();
+
+  const { total, active, inactive } = assetStats;
 
   return (
     <Box pad={{ vertical: 'medium', horizontal: 'medium' }} gap="medium">
       {/* Lab heading */}
       <Box direction="row" justify='between' width="100%">
         <Text size="xxlarge" weight={700} color="dark-1">
-          Compute Business Unit - {labName} 
+          Compute Business Unit - {labName}
         </Text>
         <Button
           label="Back"
@@ -54,6 +99,11 @@ const LabDetail: React.FC<LabDetailProps> = ({ labName }) => {
           icon={<FormPreviousLink />}
           style={{ borderRadius: '25px' }}
         />
+      </Box>
+      <Box direction="row" justify='around'>
+        <StatCard label="Total Assets" value={total} />
+        <StatCard label="Active Assets" value={active} color="status-ok" />
+        <StatCard label="Inactive Assets" value={inactive} color="status-critical" />
       </Box>
 
 
